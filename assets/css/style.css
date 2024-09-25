@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: 10px solid #0b99d8; 
+    background-color: #38469c;
+}
+.titulos-container {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    text-align: center; 
+}
+h1, p {
+    margin: 10px 0; 
+}
+#title{
+    font-family: "Raleway", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: white;
+}
+#subtitulo{
+    font-family: "Raleway", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: white;
+}
+label{
+    font-family: "Raleway", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: #0b99d8;
+    
+}
+input {
+    background-color: transparent;
+    border: none; 
+    border-top: 10px solid #0b99d8; 
+    outline: none; 
+    margin-bottom: 10px;
+    width: 100%; 
+}
+
+input:focus {
+    border-bottom: 10px solid #0b99d8;
+    border-top: none;
+    background-color: transparent;
+}
+button{
+    width: 150px;
+    height: 40px;
+}
+#guardar{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-family: "Raleway", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.modal-content {
+    background-color: #192542; 
+    color: #fff; 
+}
+
+.modal-header {
+    border-bottom: 1px solid #4d4d4d; 
+}
+
+.modal-footer {
+    border-top: 1px solid #4d4d4d; 
+}
+
+.modal-footer .btn {
+    padding: 10px 20px;
+}
+#contactoInfo {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+#correoBtn{
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+}
+
